@@ -1,0 +1,6 @@
+fastapi
+openai
+regex
+base64
+fitz
+PyMuPDF
