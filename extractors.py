@@ -3,7 +3,7 @@ import openai
 #import re
 import regex as re
 #from google.cloud import vision--you failed me
-
+import os
 from openai import OpenAI
 
 from PIL import Image
@@ -13,8 +13,8 @@ import fitz
 #import pytesseract --- not supported on vercel and too many dependencies failing to install
 from pdf2image import convert_from_path
 
-client = OpenAI(api_key = "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")
-
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key = OPENAI_API_KEY)    
 
 # --------------------------
 # YOUR ORIGINAL FUNCTION (UNTOUCHED)
