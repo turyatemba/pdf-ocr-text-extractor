@@ -6,7 +6,7 @@ import regex as re
 import os
 from openai import OpenAI
 
-from PIL import Image
+#from PIL import Image
 import io
 import base64
 import fitz
