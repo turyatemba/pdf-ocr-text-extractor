@@ -11,7 +11,7 @@ import io
 import base64
 import fitz
 #import pytesseract --- not supported on vercel and too many dependencies failing to install
-from pdf2image import convert_from_path
+#from pdf2image import convert_from_path
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key = OPENAI_API_KEY)    
