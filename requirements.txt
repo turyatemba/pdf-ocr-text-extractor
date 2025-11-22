@@ -1,7 +1,6 @@
 fastapi
 openai
 regex
-fitz
 PyMuPDF
 uvicorn[standard]
 python-multipart
