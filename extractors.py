@@ -162,7 +162,7 @@ def extract_allergens(text):
 #}
 
 NUTRIENTS = {
-    "fat": r"\p{P}?\b(fat|zsír)\b\p{P}?\s*.*?(\d+[.,]?\d*)\s*(g|gram|mg|kg)?",
+    "fat": r"\p{P}?\b(fat|Zsír)\b\p{P}?\s*.*?(\d+[.,]?\d*)\s*(g|gram|mg|kg)?",
     "protein": r"\p{P}?\p{P}?\b(protein|fehérje)\b\p{P}?\s*.*?(\d+[.,]?\d*)\s*(g|gram|mg|kg)?",
     "carbs": r"\p{P}?\b(carb|carbohydrate|szénhidrát)\b\p{P}?\s*.*?(\d+[.,]?\d*)\s*(g|gram|mg|kg)?",
     "sugars": r"\p{P}?\b(sugar|cukor|cukrok)\b\p{P}?\s*.*?(\d+[.,]?\d*)\s*(g|gram|mg|kg)?",
