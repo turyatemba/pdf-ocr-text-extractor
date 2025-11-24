@@ -15,7 +15,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["https://front-end-pdf-extractor.vercel.app"],  # or your domain
-    allow_credentials=True,
+    #allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
