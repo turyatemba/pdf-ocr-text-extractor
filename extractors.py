@@ -47,7 +47,7 @@ def pdf_to_text(pdf_path):
 '''
 def ocr_pdf_with_google_vision(pdf_path):
     """
-    OCR fallback for scanned PDFs using Google Cloud Vision API.
+    OCR  _fallback for scanned PDFs using Google Cloud Vision API.
     Uses PyMuPDF to rasterize each page → image → send to Vision.
     """
     client = vision.ImageAnnotatorClient()
